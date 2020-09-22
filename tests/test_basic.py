@@ -10,6 +10,12 @@ from core.shop.cash_register import CashRegister
 
 
 class TestBasic(TestCase):
+    """
+    This class tests Input 1:
+    1 book at 12.49
+    1 music CD at 14.99
+    1 chocolate bar at 0.85
+    """
     def setUp(self) -> None:
         self.user = User()
         self.tax_calculator = TaxCalculator()

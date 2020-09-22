@@ -9,6 +9,11 @@ from core.shop.cash_register import CashRegister
 
 
 class TestImported(TestCase):
+    """
+    This class tests Input 2:
+    1 imported box of chocolates at 10.00
+    1 imported bottle of perfume at 47.50
+    """
     def setUp(self) -> None:
         self.user = User()
         self.tax_calculator = TaxCalculator()
